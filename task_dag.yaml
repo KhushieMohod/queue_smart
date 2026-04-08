@@ -1,0 +1,66 @@
+tasks:
+  - id: TSK-001
+    title: "Initialize the QueueSmart project"
+    description: "Generate goal_contract.yaml, task_dag.yaml, and implementation_log.md"
+    dependencies: []
+    status: "done"
+    
+  - id: TSK-002
+    title: "Define core system architecture"
+    description: "Design the core components for the smart queue management system"
+    dependencies: ["TSK-001"]
+    status: "done"
+
+  - id: TSK-003
+    title: "Initialize Data Schema and Queue Prediction Engine"
+    description: "Create schema with mock data and the queue time prediction engine"
+    dependencies: ["TSK-002"]
+    status: "done"
+
+  - id: TSK-004
+    title: "Build the Frontend Shell"
+    description: "Create the initial HTML and CSS for the queue frontend"
+    dependencies: ["TSK-002"]
+    status: "done"
+
+  - id: TSK-005
+    title: "Hook up Interaction"
+    description: "Connect frontend to backend mock data and prediction engine"
+    dependencies: ["TSK-003", "TSK-004"]
+    status: "done"
+
+  - id: TSK-006
+    title: "Community Reporting & Rewards"
+    description: "Implement reporting check-ins and rewards logic (points/badges)"
+    dependencies: ["TSK-005"]
+    status: "done"
+
+  - id: TSK-007
+    title: "Expand Office Database"
+    description: "Add more government office types to mock_data.json"
+    dependencies: ["TSK-003"]
+    status: "done"
+
+  - id: TSK-008
+    title: "Visual Analytics & Best Time to Visit"
+    description: "Integrate charts and recommendation logic for visit planning"
+    dependencies: ["TSK-005"]
+    status: "done"
+
+  - id: TSK-009
+    title: "Smart Appointment Booking"
+    description: "Accept user time range, suggest Green window, output Smart Token"
+    dependencies: ["TSK-008"]
+    status: "done"
+
+  - id: TSK-010
+    title: "Live Crowd Map"
+    description: "Render offices on a Leaflet map with colored wait time markers"
+    dependencies: ["TSK-005"]
+    status: "done"
+
+  - id: TSK-011
+    title: "Multilingual Localization"
+    description: "Add English, Hindi, and Marathi translations for UI elements"
+    dependencies: ["TSK-010"]
+    status: "done"

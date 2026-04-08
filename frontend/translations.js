@@ -1,0 +1,172 @@
+const translations = {
+    en: {
+        // Navbar
+        "nav_title": "QueueSmart",
+        "nav_points": "Points:",
+        
+        // Hero Area
+        // Hero Area
+        "hero_title": "Beat the Queue. Save Your Time.",
+        "hero_subtitle": "Check live waiting times at government offices and plan your visit efficiently.",
+        "btn_check_queue": "Check Queue",
+        "btn_report_queue": "Report Queue",
+        
+        // Map
+        "map_title": "Live Queue Map",
+        
+        // Search & Offices
+        "search_title": "Find Your Office",
+        "search_placeholder": "Search by office name or type (e.g., RTO)",
+        "btn_search": "Search",
+        "loading_offices": "Loading offices dynamically...",
+        "no_offices": "No offices found matching your search.",
+        
+        // Dynamic Card Elements
+        "in_queue": "In Queue:",
+        "counters": "Counters:",
+        "best_time": "✨ Best Time:",
+        "btn_confirm": "Confirm",
+        "btn_update": "Update",
+        "btn_book": "Smart Appointment Booking",
+        
+        // Modal
+        "modal_title": "Smart Appointment Booking",
+        "modal_subtitle": "Select your preferred time block:",
+        "opt_morning": "Morning (9 AM - 12 PM)",
+        "opt_mid_day": "Mid-Day (12 PM - 3 PM)",
+        "opt_afternoon": "Afternoon (3 PM - 6 PM)",
+        "btn_gen_token": "Find Green Window & Generate Token",
+        
+        // Token Output
+        "token": "Token:",
+        "service": "Service:",
+        "arrive_at": "Arrive At:",
+        "est_finish": "Est. Finish Time:",
+        "queue_ahead": "Queue Ahead estimated:",
+        
+        // Time & Trends
+        "time_closed": "Counters closed",
+        "time_immediate": "Proceed immediately",
+        "time_hr": "hr",
+        "time_mins": "mins",
+        "trend_increasing": "Increasing ↗",
+        "trend_decreasing": "Decreasing ↘",
+        "trend_stable": "Stable →",
+
+        // Best Time Strings
+        "best_morning": "Morning (9 AM - 11 AM)",
+        "best_mid_day": "Mid-Day (12 PM - 2 PM)",
+        "best_afternoon": "Afternoon (3 PM - 5 PM)",
+        "best_anytime": "Anytime",
+        
+        // Alerts & Messages
+        "prompt_queue": "How many people are in the queue right now?",
+        "alert_report": "Thanks for reporting! You earned",
+        "alert_confirm": "Thanks for confirming! You earned",
+        "alert_points": "points.",
+        "alert_error": "Error submitting action.",
+        "alert_badge": "🎉 Congratulations! You unlocked a new badge:"
+    },
+    hi: {
+        "nav_title": "क्यूस्मार्ट",
+        "nav_points": "अंक:",
+        "nav_points": "अंक:",
+        "hero_title": "कतार को हराएं। अपना समय बचाएं।",
+        "hero_subtitle": "सरकारी कार्यालयों में लाइव प्रतीक्षा समय की जांच करें और अपनी यात्रा की कुशलतापूर्वक योजना बनाएं।",
+        "btn_check_queue": "कतार जांचें",
+        "btn_report_queue": "कतार रिपोर्ट करें",
+        "map_title": "लाइव कतार मानचित्र",
+        "search_title": "अपना कार्यालय खोजें",
+        "search_placeholder": "कार्यालय का नाम या प्रकार (उदा: RTO) से खोजें",
+        "btn_search": "खोज",
+        "loading_offices": "कार्यालय लोड हो रहे हैं...",
+        "no_offices": "आपकी खोज से मेल खाने वाले कोई कार्यालय नहीं मिले।",
+        "in_queue": "कतार में:",
+        "counters": "काउंटर:",
+        "best_time": "✨ सर्वोत्तम समय:",
+        "btn_confirm": "पुष्टि करें",
+        "btn_update": "अपडेट करें",
+        "btn_book": "स्मार्ट अपॉइंटमेंट बुकिंग",
+        "modal_title": "स्मार्ट अपॉइंटमेंट बुकिंग",
+        "modal_subtitle": "अपना पसंदीदा समय ब्लॉक चुनें:",
+        "opt_morning": "सुबह (9 AM - 12 PM)",
+        "opt_mid_day": "दोपहर (12 PM - 3 PM)",
+        "opt_afternoon": "शाम (3 PM - 6 PM)",
+        "btn_gen_token": "ग्रीन विंडो खोजें और टोकन उत्पन्न करें",
+        "token": "टोकन:",
+        "service": "सेवा:",
+        "arrive_at": "पहुंचें:",
+        "est_finish": "अनुमानित समाप्ति समय:",
+        "queue_ahead": "अनुमानित कतार आगे:",
+        "time_closed": "काउंटर बंद",
+        "time_immediate": "तुरंत आगे बढ़ें",
+        "time_hr": "घंटे",
+        "time_mins": "मिनट",
+        "trend_increasing": "बढ़ रहा है ↗",
+        "trend_decreasing": "घट रहा है ↘",
+        "trend_stable": "स्थिर →",
+        "best_morning": "सुबह (9 बजे - 11 बजे)",
+        "best_mid_day": "दोपहर (12 बजे - 2 बजे)",
+        "best_afternoon": "शाम (3 बजे - 5 बजे)",
+        "best_anytime": "किसी भी समय",
+        "prompt_queue": "अभी कतार में कितने लोग हैं?",
+        "alert_report": "रिपोर्ट करने के लिए धन्यवाद! आपने कमाए",
+        "alert_confirm": "पुष्टि करने के लिए धन्यवाद! आपने कमाए",
+        "alert_points": "अंक।",
+        "alert_error": "कार्रवाई सबमिट करने में त्रुटि।",
+        "alert_badge": "🎉 बधाई हो! आपने एक नया बैज अनलॉक किया है:"
+    },
+    mr: {
+        "nav_title": "रांगस्मार्ट (QueueSmart)",
+        "nav_points": "पॉइंट्स:",
+        "nav_points": "पॉइंट्स:",
+        "hero_title": "रांगेला मात द्या. तुमचा वेळ वाचवा.",
+        "hero_subtitle": "सरकारी कार्यालयांमध्ये थेट प्रतीक्षा वेळा तपासा आणि तुमच्या भेटीचे कार्यक्षमतेने नियोजन करा.",
+        "btn_check_queue": "रांग पहा",
+        "btn_report_queue": "रांग नोंदवा",
+        "map_title": "थेट रांग नकाशा",
+        "search_title": "तुमचे कार्यालय शोधा",
+        "search_placeholder": "कार्यालयाचे नाव किंवा प्रकार शोधा (उदा: RTO)",
+        "btn_search": "शोधा",
+        "loading_offices": "कार्यालये लोड होत आहेत...",
+        "no_offices": "तुमच्या शोधाशी जुळणारी कार्यालये आढळली नाहीत.",
+        "in_queue": "रांगेत:",
+        "counters": "काउंटर:",
+        "best_time": "✨ सर्वोत्तम वेळ:",
+        "btn_confirm": "पुष्टी करा",
+        "btn_update": "अपडेट करा",
+        "btn_book": "स्मार्ट अपॉइंटमेंट बुकिंग",
+        "modal_title": "स्मार्ट अपॉइंटमेंट बुकिंग",
+        "modal_subtitle": "तुमचा पसंतीचा वेळेचा ब्लॉक निवडा:",
+        "opt_morning": "सकाळ (9 AM - 12 PM)",
+        "opt_mid_day": "दुपार (12 PM - 3 PM)",
+        "opt_afternoon": "संध्याकाळ (3 PM - 6 PM)",
+        "btn_gen_token": "ग्रीन विंडो शोधा आणि टोकन तयार करा",
+        "token": "टोकन:",
+        "service": "सेवा:",
+        "arrive_at": "पोहोचण्याची वेळ:",
+        "est_finish": "अंदाजित काम पूर्ण होण्याची वेळ:",
+        "queue_ahead": "तुमच्या पुढे रांग अंदाज:",
+        "time_closed": "काउंटर बंद",
+        "time_immediate": "लगेच पुढे जा",
+        "time_hr": "तास",
+        "time_mins": "मिनिटे",
+        "trend_increasing": "वाढत आहे ↗",
+        "trend_decreasing": "कमी होत आहे ↘",
+        "trend_stable": "स्थिर →",
+        "best_morning": "सकाळ (9 ते 11 वा)",
+        "best_mid_day": "दुपार (12 ते 2 वा)",
+        "best_afternoon": "संध्याकाळ (3 ते 5 वा)",
+        "best_anytime": "कोणत्याही वेळी",
+        "prompt_queue": "आता रांगेत किती लोक आहेत?",
+        "alert_report": "माहिती दिल्याबद्दल धन्यवाद! तुम्ही मिळवले",
+        "alert_confirm": "पुष्टी केल्याबद्दल धन्यवाद! तुम्ही मिळवले",
+        "alert_points": "पॉइंट्स.",
+        "alert_error": "कृती सबमिट करण्यात त्रुटी.",
+        "alert_badge": "🎉 अभिनंदन! तुम्ही नवीन बॅज अनलॉक केला आहे:"
+    }
+};
+
+if (typeof window !== 'undefined') {
+    window.translations = translations;
+}

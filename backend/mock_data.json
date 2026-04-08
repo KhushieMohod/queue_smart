@@ -1,0 +1,154 @@
+{
+  "offices": [
+    {
+      "id": "office_1",
+      "name": "Regional Transport Office (RTO) - Central",
+      "type": "Transport",
+      "lat": 19.0760,
+      "lng": 72.8777,
+      "services": [
+        {
+          "id": "svc_1_1",
+          "name": "Driving License Renewal",
+          "historical_avg_process_time_minutes": 15,
+          "current_queue_length": 12,
+          "open_counters": 3,
+          "recent_hourly_demand": [10, 15, 20]
+        },
+        {
+          "id": "svc_1_2",
+          "name": "Vehicle Registration",
+          "historical_avg_process_time_minutes": 25,
+          "current_queue_length": 8,
+          "open_counters": 2,
+          "recent_hourly_demand": [5, 5, 8]
+        }
+      ]
+    },
+    {
+      "id": "office_2",
+      "name": "Passport Seva Kendra - Main Branch",
+      "type": "Passport",
+      "lat": 19.1136,
+      "lng": 72.8697,
+      "services": [
+        {
+          "id": "svc_2_1",
+          "name": "Fresh Passport Application",
+          "historical_avg_process_time_minutes": 20,
+          "current_queue_length": 45,
+          "open_counters": 8,
+          "recent_hourly_demand": [30, 40, 50]
+        },
+        {
+          "id": "svc_2_2",
+          "name": "Passport Renewal / Re-issue",
+          "historical_avg_process_time_minutes": 10,
+          "current_queue_length": 15,
+          "open_counters": 4,
+          "recent_hourly_demand": [10, 12, 10]
+        }
+      ]
+    },
+    {
+      "id": "office_3",
+      "name": "Aadhaar Seva Kendra - City Mall",
+      "type": "Identity",
+      "lat": 19.0553,
+      "lng": 72.8364,
+      "services": [
+        {
+          "id": "svc_3_1",
+          "name": "New Aadhaar Enrollment",
+          "historical_avg_process_time_minutes": 15,
+          "current_queue_length": 35,
+          "open_counters": 6,
+          "recent_hourly_demand": [20, 30, 38]
+        },
+        {
+          "id": "svc_3_2",
+          "name": "Biometric / Demographic Update",
+          "historical_avg_process_time_minutes": 10,
+          "current_queue_length": 60,
+          "open_counters": 5,
+          "recent_hourly_demand": [45, 50, 58]
+        }
+      ]
+    },
+    {
+      "id": "office_4",
+      "name": "Municipal Corporation Office",
+      "type": "Civic Services",
+      "lat": 18.9322,
+      "lng": 72.8306,
+      "services": [
+        {
+          "id": "svc_4_1",
+          "name": "Property Tax Payment",
+          "historical_avg_process_time_minutes": 8,
+          "current_queue_length": 12,
+          "open_counters": 3,
+          "recent_hourly_demand": [8, 10, 10]
+        },
+        {
+          "id": "svc_4_2",
+          "name": "Birth/Death Certificate Issuance",
+          "historical_avg_process_time_minutes": 12,
+          "current_queue_length": 25,
+          "open_counters": 2,
+          "recent_hourly_demand": [15, 20, 24]
+        }
+      ]
+    },
+    {
+      "id": "office_5",
+      "name": "State Electricity Board",
+      "type": "Utilities",
+      "lat": 19.1334,
+      "lng": 72.9133,
+      "services": [
+        {
+          "id": "svc_5_1",
+          "name": "New Connection Application",
+          "historical_avg_process_time_minutes": 25,
+          "current_queue_length": 18,
+          "open_counters": 2,
+          "recent_hourly_demand": [10, 15, 20]
+        },
+        {
+          "id": "svc_5_2",
+          "name": "Bill Dispute Resolution",
+          "historical_avg_process_time_minutes": 30,
+          "current_queue_length": 15,
+          "open_counters": 1,
+          "recent_hourly_demand": [8, 12, 16]
+        }
+      ]
+    },
+    {
+      "id": "office_6",
+      "name": "Government District Hospital",
+      "type": "Healthcare",
+      "lat": 18.9750,
+      "lng": 72.8258,
+      "services": [
+        {
+          "id": "svc_6_1",
+          "name": "OPD Registration",
+          "historical_avg_process_time_minutes": 5,
+          "current_queue_length": 85,
+          "open_counters": 4,
+          "recent_hourly_demand": [100, 95, 90]
+        },
+        {
+          "id": "svc_6_2",
+          "name": "Pharmacy Dispensation",
+          "historical_avg_process_time_minutes": 3,
+          "current_queue_length": 40,
+          "open_counters": 3,
+          "recent_hourly_demand": [30, 35, 42]
+        }
+      ]
+    }
+  ]
+}
