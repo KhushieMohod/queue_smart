@@ -206,9 +206,9 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## 📞 Contact & Support
 
-- **Project Lead:** [Khush Patel](https://github.com/your-username)
+- **Project Lead:** [Khushie Mohod](https://github.com/KhushieMohod)
 - **Issues & Feedback:** Open an issue on GitHub
-- **Email:** your-email@example.com
+- **Email:** khushiemohod@gmail.com
 
 ---
 
